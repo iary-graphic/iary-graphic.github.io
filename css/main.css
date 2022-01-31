@@ -229,11 +229,20 @@ b, strong {
 }
 
 .about-me {
-    background-color: #383838;
+    background-color: #114c95;
     color: white;
 }
 .about-me #mask-img {
     mask: url('../images/Trace-143.svg');
+}
+.box-profil {
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px dashed #2573d5;
+    padding: 2rem;
+}
+.box-profil img {
+    border-radius: 50%;
 }
 .about-me-txt h1 {
     font-size: 3rem;
@@ -495,7 +504,7 @@ b, strong {
 }
 @media(min-width: 992px) {
     .contact {
-        background: linear-gradient(90deg, rgba(56,56,56,1) 57%, rgba(249,230,92,1) 57%);
+        background: linear-gradient(90deg, #114c95 57%, rgba(249,230,92,1) 57%);
     }
     .contact:before {
         content: "";
